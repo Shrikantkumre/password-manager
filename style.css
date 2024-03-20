@@ -1,0 +1,101 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.maincontainer {
+
+    height: 200px;
+}
+
+.maincontainer1 {
+    height: 20px;
+
+    background-color: rgb(112, 76, 165);
+
+    align-items: center;
+    text-align: center;
+}
+
+.maincontainer1 ul {
+
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+
+.delete {
+    cursor: pointer;
+    border: none;
+    padding: 3px;
+    background-color: bisque;
+}
+
+.maincontainer2 {
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: aqua;
+}
+
+.passwordcontainer {
+    height: 200px;
+    <!-- display: none; -->
+
+}
+
+
+.logininformatiom {
+    margin-left: 150px;
+    margin-top: 10px;
+    width: 200px;
+
+}
+
+.logininformatiom h5 {
+    margin-top: 20px;
+}
+
+.submit {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    width: 100px;
+}
+
+th {
+    background-color: #f2f2f2;
+
+}
